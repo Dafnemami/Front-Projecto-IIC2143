@@ -5,7 +5,7 @@
 | Dafne Arriagada            | dafne.arriagada@uc.cl  | [@Dafnemami](https://github.com/Dafnemami)               |
 | Alberto Agostini        | alberto.agostini@uc.cl  | [@albertoar1](https://github.com/albertoar1)          |
 
-EL REPOSITORIO DE BACK SE ENCUENTRA [ACÁ](https://github.com/IIC2513/grupo-SopaipillasCiberneticas-backend)
+EL REPOSITORIO DE BACK SE ENCUENTRA [ACÁ](https://github.com/Dafnemami/Back-Projecto-IIC2143)
 
 Para este front end se utilizó React.js. Se crearon 3 componentes principales: Landing Page, Games y Game. 
 
