@@ -1,0 +1,57 @@
+main {
+    width: 100%;
+  }
+
+
+/* JUGAR UP BLOCK */
+
+#Jugar-block {
+    background-color: white;
+    /* background-image: url("../../assets/fondo.png"); */
+    background-repeat: round;
+    background-size: auto;
+    background-blend-mode: luminosity;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+
+.jugar-title {
+    /* color: white; */
+    color: #1c6ad1;
+    text-align: center;
+    margin-bottom: 4%;
+    font-size:xx-large;
+    margin-bottom: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+    /* text-shadow: 2px 2px 4px #000000; */
+  }
+
+.jugar-buttons {
+    background-color: #1c6ad1;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    font-size: large;
+    transition: .5s;
+    display: flex;
+    box-shadow: 2px 2px 4px #000000;
+  }
+
+.jugar-button {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#botonIR:hover {
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #4d79ff;
+}

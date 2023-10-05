@@ -1,0 +1,22 @@
+
+/* Aquí se hace el style del body,
+luego cada página "hereda" y a lo más 
+podemos acceder a dar estilo a sus <main>
+a través de sus respectivos css */
+
+/* ------------ BODY ---------- */
+body {
+    background-color: #6c80f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* Podemos agregar padding al borde de la página para q cosas no queden tan pegadas
+    a los bordes de la página */
+    color: white; /*color fuente*/
+    background-image: url("./assets/sopaipilla.png");
+    background-repeat: round;
+    background-size: auto;
+    background-blend-mode: color-burn;
+    /* background-blend-mode: color-dodge; */
+    margin: 0px;
+    
+}
+

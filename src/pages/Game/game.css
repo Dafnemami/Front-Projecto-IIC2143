@@ -1,0 +1,136 @@
+/* ------------ MAIN ---------- */
+
+main {
+    width: 100%;
+  }
+
+
+
+/* ----- BOARD ---- */
+
+
+.title-board {
+    display: flex;
+    justify-content: center;
+}
+
+.h1-title-board {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.boton-comenzar-partida {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top:20px
+}
+
+.contenedor-board {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    border-radius: 10px;
+    background-color: #000033;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.row {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+
+/* TABLERO MANO */
+
+.title-hand { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.contenedor-text { 
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text { 
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#hand {
+    font-size:60px;
+}
+
+#buttons { 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#B { 
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenedor-puntos{
+    background-color: #000033;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#points {
+    font-size: 60px;
+}
+
+.carta {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #000033;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta:hover{
+    transition: 0.5s;
+    color:black;
+    background-color: blueviolet;
+}

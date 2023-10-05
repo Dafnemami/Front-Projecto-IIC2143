@@ -1,0 +1,151 @@
+
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.navbar-links-container :nth-child(n) {
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+
+.navbar-links-container :hover:nth-child(n) {
+    color: rgb(80, 170, 255); /* color texto */
+}
+
+
+.button-85 {
+  background-color: rgb(67, 99, 240);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: white; /* color texto */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.button-85:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+}
+
+#boton-log {
+  background-color: coral;
+  border: 1px solid #ffffff;
+}
+
+
+#boton-log:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+}
+
+/* CSS  FUENTE: https://getcssscan.com/css-buttons-examples
+.button-85 {
+  padding: 0.8em 4.5em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffffc9;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+} */
+
+
+
+
+/* Sacamos underline de todos los links */
+
+a { 
+ text-decoration: none; 
+ font-size: x-large;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .navbar-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .navbar-links-container :nth-child(n) {
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+}

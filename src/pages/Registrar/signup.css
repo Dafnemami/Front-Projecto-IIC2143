@@ -1,0 +1,96 @@
+main {
+    width: 100%;
+  }
+
+.content-signup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-container {
+    background-color: #f8f9fd;
+    width: 500px;
+    border-radius: 22px;
+}
+
+.signup-form {  /* BOX FORM */
+    background-color: rgb(51, 48, 63);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.title-signup {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+
+.input-container-su {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px;
+}
+
+  
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    height: 35px;
+    border: 3px solid rgba(15, 1, 1, 0.281);
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+
+/* BOTÓN FORM */
+.button-container-su {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#volver-su {
+    margin-top: 10px;
+}
+
+.submit-button-su {
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #3743eb;
+    border: 1px solid #d1dbd8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+.submit-button-su:hover {
+    background: #ebebee;
+    color: black;
+}
+
+
+.out-message { 
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+label {
+    margin-top: 5%;
+    font-size: 22px;
+}
+
+.signup-container-2 {
+    height: 300px;
+}

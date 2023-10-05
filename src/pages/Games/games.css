@@ -1,0 +1,66 @@
+
+/* ------------ MAIN ---------- */
+
+main {
+    width: 100%;
+  }
+
+
+.games-container { 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.h1-title-games {
+    font-size: 70px;
+    font-weight: bold;
+    color: #1c6ad1;
+    margin-bottom: 10px;
+}
+
+#bajada { 
+    font-size: 30px;
+    color: #1c6ad1;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: none;
+
+}
+
+/* ---------LISTADO JUEGOS ---------- */
+
+
+.game-container {
+    background-color: #00004d;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-shadow: 1px 0px 2px #000000;
+}
+
+#join-game-button {
+    font-size: 20px;
+}
+
+#volver-games-button {
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px #00004d;
+    ;
+}
